@@ -4,3 +4,6 @@
 *.fls
 *.pdf
 *.fdb_latexmk
+*.bbl
+*.blg
+*.toc

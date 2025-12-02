@@ -11,6 +11,11 @@
 % poiščite niz `{definicija}' ali niz `{izrek}'.
 
 \usepackage{amsthm}
+\usepackage{tikz}
+\usepackage{pgfplots}
+\usepackage{array}
+\usetikzlibrary{math}
+\usepgfplotslibrary{external}
 
 \theoremstyle{definition}
 \newtheorem{definicija}{Definicija}
@@ -72,8 +77,14 @@
 
 \section{Stolpci in slike}
 
+\input{prosojnice2/4-stolpci-slike.tex}
+
 \section{Paket \texttt{beamer} in tabele}
 
+\input{prosojnice2/5-beamer-tabele.tex}
+
 \section[Matematika, 2. del\\\large{Zaporedja, algebra, grupe}]{Matematika, 2. del}
+
+\input{prosojnice2/6-zaporedja-algebra-grupe.tex}
 
 \end{document}
